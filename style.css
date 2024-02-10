@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: purple;
+}
+
+nav {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+
+#logo {
+    margin-left: 100px;
+    display: flex;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    align-items: center;
+    margin-right: 35px;
+}
+
+#logo img {
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#list-items {
+    display: flex;
+    align-items: center;
+}
+
+#list-items h2 {
+    margin: 0 0px 0 38px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    font-size: 22px;
+    color: rgb(206, 190, 22);
+}
+
+#list-items button {
+    margin-left: 30px;
+    padding: 13px 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(206, 190, 22);
+    background-color: transparent;
+    color: rgb(206, 190, 22);
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#list-items .icons {
+    background-color: white;
+    margin-left: 13px;
+    font-size: 25px;
+    color: purple;
+    background-color: rgb(206, 190, 22);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.arrow {
+    background-color: rgb(206, 190, 22);
+    color: purple;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.arrow i {
+    margin-top: 500px;
+    font-size: 25px;
+}
